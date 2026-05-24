@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>业务服务 - 宁夏揽岳喜行会展旅游有限责任公司</title>
+  <meta name="description" content="宁夏揽岳喜行会展旅游有限责任公司业务服务，包括汽车租赁、接客服务、会务承办、餐饮保障。" />
+  <style>
+    :root{
+      --bg:#f5f7fb;
+      --card:#ffffff;
+      --text:#17324d;
+      --muted:#5d7286;
+      --primary:#0f4c81;
+      --primary2:#1c6ca8;
+      --line:#dce6f0;
+      --shadow:0 18px 45px rgba(15,76,129,.10);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+    a{text-decoration:none;color:inherit}
+    .wrap{width:min(1180px,92vw);margin:0 auto}
+    header{
+      position:sticky;top:0;z-index:10;
+      background:rgba(245,247,251,.92);
+      backdrop-filter:blur(10px);
+      border-bottom:1px solid var(--line);
+    }
+    .nav{
+      display:flex;justify-content:space-between;align-items:center;gap:18px;
+      padding:18px 0;
+    }
+    .brand{font-weight:800;color:var(--primary);letter-spacing:.5px;font-size:18px}
+    .menu{display:flex;gap:24px;flex-wrap:wrap;color:var(--muted);font-size:15px}
+    .menu a:hover{color:var(--primary)}
+    .hero{
+      padding:64px 0 28px;
+      background:linear-gradient(135deg, rgba(15,76,129,.92), rgba(28,108,168,.86));
+      color:#fff;
+    }
+    h1{margin:0 0 14px;font-size:clamp(32px,4vw,48px);line-height:1.1}
+    .lead{margin:0;max-width:46rem;color:rgba(255,255,255,.9);font-size:18px}
+    section{padding:56px 0}
+    .section-title{font-size:30px;margin:0 0 10px}
+    .section-sub{margin:0 0 26px;color:var(--muted)}
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:18px;
+    }
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:20px;
+      padding:24px;
+      box-shadow:var(--shadow);
+    }
+    .icon{
+      width:52px;height:52px;border-radius:16px;
+      display:flex;align-items:center;justify-content:center;
+      background:linear-gradient(135deg,var(--primary),var(--primary2));
+      color:#fff;font-size:22px;margin-bottom:16px;
+    }
+    .card h3{margin:0 0 10px;color:var(--primary)}
+    .card p{margin:0;color:var(--muted)}
+    .steps{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:18px;
+    }
+    .step{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:20px;
+      padding:24px;
+      box-shadow:var(--shadow);
+    }
+    .step strong{display:block;color:var(--primary);font-size:20px;margin-bottom:8px}
+    .step span{color:var(--muted)}
+    .footer{
+      padding:24px 0 40px;color:var(--muted);
+      text-align:center;border-top:1px solid var(--line);
+    }
+    @media (max-width: 900px){
+      .cards,.steps{grid-template-columns:1fr}
+      .nav{flex-direction:column;align-items:flex-start}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">宁夏揽岳喜行会展旅游有限责任公司</div>
+      <nav class="menu">
+        <a href="index.html">首页</a>
+        <a href="services.html">业务服务</a>
+        <a href="contact.html">联系我们</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <h1>业务服务</h1>
+        <p class="lead">围绕商务接待、会展执行和餐饮配套，提供完整服务链。</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2 class="section-title">核心服务</h2>
+        <p class="section-sub">从车辆调度到会务现场，从接客到餐饮，统一协调，统一执行。</p>
+        <div class="cards">
+          <div class="card">
+            <div class="icon">🚗</div>
+            <h3>汽车租赁</h3>
+            <p>商务轿车、商务车、团队用车，适合会议接待、考察、短途差旅。</p>
+          </div>
+          <div class="card">
+            <div class="icon">🛬</div>
+            <h3>接客服务</h3>
+            <p>机场、车站、酒店定点接送，保障准时到达和高效转场。</p>
+          </div>
+          <div class="card">
+            <div class="icon">📋</div>
+            <h3>会务承办</h3>
+            <p>会议策划、会场统筹、现场执行、物料协调与流程管理。</p>
+          </div>
+          <div class="card">
+            <div class="icon">🍽️</div>
+            <h3>餐饮保障</h3>
+            <p>接待餐、工作餐、活动餐和定制餐饮方案，配合活动节奏。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2 class="section-title">服务流程</h2>
+        <p class="section-sub">让客户更清楚地了解合作方式，也便于提升咨询转化率。</p>
+        <div class="steps">
+          <div class="step"><strong>01 需求沟通</strong><span>了解人数、时间、地点、车型和会务要求。</span></div>
+          <div class="step"><strong>02 方案确认</strong><span>根据实际需求制定车辆、接送、会议和餐饮安排。</span></div>
+          <div class="step"><strong>03 落地执行</strong><span>统一调度执行，保障活动顺利进行。</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © 2026 宁夏揽岳喜行会展旅游有限责任公司
+  </footer>
+</body>
+</html>
